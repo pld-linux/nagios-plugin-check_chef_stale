@@ -1,12 +1,12 @@
 %define		plugin	check_chef_stale
 Summary:	Nagios/Icinga plugin to check stale nodes in Chef
 Name:		nagios-plugin-%{plugin}
-Version:	0.3.0
+Version:	0.4.0
 Release:	1
 License:	GPL v2
 Group:		Networking
 Source0:	https://github.com/glensc/monitoring-plugin-check_chef_stale/archive/v%{version}/%{plugin}-%{version}.tar.gz
-# Source0-md5:	ff194884181964c092f24c47a5a50668
+# Source0-md5:	28db2a26d0b78f045f7c70ac702e435d
 URL:		https://github.com/glensc/monitoring-plugin-check_chef_stale
 Requires:	knife
 Requires:	nagios-common
